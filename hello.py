@@ -3,9 +3,13 @@
 
 name =input("What's your name?: ").strip().title()
 
+
+#Split user's name into first name and last name
+first, last = name.split(" ")
+
 #And hen say them hello
 
-print("hello", name)
+print("hello", first)
 
 #I can also solve it this way
 #print(f"hello {name}")
