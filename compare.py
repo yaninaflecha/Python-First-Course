@@ -2,9 +2,15 @@ x = int(input("What's x? "))
 y = int(input("What's y?"))
 
 if x < y:
-    print("x is less than y")
-if y < x:
-    print("y is less than x")
-if y== x:
+    print(x, " is less than", y)
+elif y < x:
+    print(x," is less than ",y)
+else:
     print("They are the same")
 
+
+
+if x != y: 
+    print("X is not equal to Y")
+else: 
+    print("X is Equal to Y")
