@@ -1,4 +1,5 @@
 def main():
+
     x = int(input("What's x?: "))
     if is_odd(x):
         print(x, "is odd")
@@ -27,6 +28,8 @@ def is_even(n):
              return True
         else: 
              return False
-
+        
+#Pythonic way: return True if n%2 == 0 else False
+#Or return n%2 == 0
 
 main()
