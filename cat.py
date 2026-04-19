@@ -1,9 +1,14 @@
 
+#This is how the professor did it
+for i in [0, 1, 2]: #It's ok for small programs but will I type 34234242 numbers????
+    print("Meow")
 
-for meow in range(3):
+#This is the way I find out it can be done
+for _ in range(3): #The _ is because i don't need the variable at all
     print("Meow")
 print("Finished.")
-#This is the way I find out it can be done
+
+print("meow\n" * 3, end="")
 
 cat= 0
 while  cat<3:
