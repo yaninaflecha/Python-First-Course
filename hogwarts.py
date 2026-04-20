@@ -6,4 +6,5 @@ for student in students: #I'm not using range because its a list of integer
 #ANOTHER WAY
 for i in range(len(students)):
     print(i +1, students[i])
+    
 
