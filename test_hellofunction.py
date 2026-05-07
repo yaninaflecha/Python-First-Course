@@ -5,4 +5,5 @@ def test_default():
     hello()== "hello, world"
 
 def test_argument():
-    hello("David")== "Hello David"
+    for name in ["Harry", "Ron","Hermione"]:
+        assert hello(name)== f"hello, {name}"
